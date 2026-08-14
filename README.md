@@ -2,6 +2,8 @@
 
 olmOCR (https://github.com/allenai/olmocr) is a tool for turning PDFs and image-based documents into text that computers can work with. It is designed to handle difficult page layouts, handwriting, tables, equations, and other challenging document formats. This repository contains a preconfigured environment, supporting scripts, and instructions for installing and using the olmOCR. Please follow the instructions in this README file to get started.
 
+>Note: This setup was built and tested on Linux, but instructions for other operating systems are provided based on a best guess. Please feel free to contribute for greater OS compatibility.
+
 # Prerequisites
 
 ### Nvidia Hardware
@@ -9,27 +11,29 @@ olmOCR (https://github.com/allenai/olmocr) is a tool for turning PDFs and image-
 You’ll need a Nvidia graphics card with at least 16 GB of VRAM to run this code.
 
 ### Tesseract
+
 Some image pre-processing steps use tesseract. It must be installed on the system.
 
 **Linux**
 
-Ubuntu or Debian
-`sudo apt update`
-`sudo apt install tesseract-ocr`
+Ubuntu or Debian: 
+`sudo apt update && sudo apt install tesseract-ocr`
 
-Fedora
+Fedora:
 `sudo dnf install tesseract`
 
-Arch Linux
+Arch Linux:
 `sudo pacman -S tesseract`
 
 **macOS**
+
 First, install Homebrew (https://brew.sh/) if it is not already installed. 
 
 Then run:
 `brew install tesseract`
 
 **Windows**
+
 Open PowerShell and run:
 `winget install --id UB-Mannheim.TesseractOCR`
 
@@ -64,10 +68,13 @@ Then, use UV to configure the virtual environment:
 `uv sync`
 
 4. Activate the project’s virtual environment.
-Linux or macOS:
+
+**Linux or macOS:**
+
 `source .venv/bin/activate`
 
-Windows PowerShell:
+**Windows PowerShell:**
+
 `.venv\Scripts\Activate.ps1`
 
 Keep this terminal open while using the project. You must activate the virtual environment again whenever you open a new terminal.
