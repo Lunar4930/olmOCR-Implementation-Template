@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+build/
+dist/
+wheels/
+
+# Ignore all dot files and directories
+.*
+
+# Dot file and directory exceptions
+!.gitignore
+!.python-version
+
+# Include .vscode directory but ignore all its contents except extensions.json
+!.vscode
+.vscode/*
+!.vscode/extensions.json
+
+# Logs
+*.log
+
+# Notes
+*.txt
+TODO
