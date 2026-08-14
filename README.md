@@ -2,7 +2,7 @@
 
 olmOCR (https://github.com/allenai/olmocr) is a tool for turning PDFs and image-based documents into text that computers can work with. It is designed to handle difficult page layouts, handwriting, tables, equations, and other challenging document formats. This repository contains a preconfigured environment, supporting scripts, and instructions for installing and using the olmOCR. Please follow the instructions in this README file to get started.
 
->Note: This setup was built and tested on Linux, but instructions for other operating systems are provided based on a best guess. Please feel free to contribute for greater OS compatibility.
+>Note: This setup was built and tested on Linux. Instructions for other operating systems are provided on a best-effort basis and may require adjustments. Contributions that improve cross-platform compatibility are welcome.
 
 # Prerequisites
 
@@ -47,10 +47,10 @@ If installation was successful, the command will display the installed Tesseract
 
 ### UV
 
-You must have UV (https://docs.astral.sh/uv/getting-started/installation/) installed on the system
+You must have UV (https://docs.astral.sh/uv/getting-started/installation/) installed on the system.
 
 ### Git
-You must have Git (https://git-scm.com/install/) installed on the system
+You must have Git (https://git-scm.com/install/) installed on the system.
 
 Then, use UV to configure the virtual environment:
 - Run `uv sync` in the project directory
@@ -111,7 +111,7 @@ Example for multiple files:
 - `--pages_per_group 3`: Tells the program to process the pages in batches of 3 for better efficiency. How high you can set this will depend on the capabilities of your hardware.
 
 ### After running
-- Check the `FINAL METRICS SUMMARY` output in the terminal
+- Check the `FINAL METRICS SUMMARY` output in the terminal.
 - Optionally, run `extract_ocr_output_markdown.py`, which collects all Markdown files directly inside a specified folder and places them in a single ZIP file. To see all available options and an example, run:
 `python extract_ocr_output_markdown.py --help`
 
