@@ -52,22 +52,19 @@ You must have UV (https://docs.astral.sh/uv/getting-started/installation/) insta
 ### Git
 You must have Git (https://git-scm.com/install/) installed on the system.
 
-Then, use UV to configure the virtual environment:
-- Run `uv sync` in the project directory
-- You may need to manually enter the virtual environment by running `source .venv/bin/activate`
-
 # Installation
 
 1. Open a terminal and download the project:
-`git clone {REPOSITORY_URL}`
+`git clone https://github.com/Lunar4930/olmOCR-Implementation-Template.git`
 
 2. Move into the project folder:
-`cd {PROJECT_FOLDER}`
+`cd olmOCR-Implementation-Template`
 
 3. Install the required Python packages:
 `uv sync`
 
-4. Activate the project’s virtual environment.
+4. Activate the project’s virtual environment:
+`source .venv/bin/activate`
 
 **Linux or macOS:**
 
