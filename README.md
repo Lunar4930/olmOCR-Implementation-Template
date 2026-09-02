@@ -64,7 +64,6 @@ You must have Git (https://git-scm.com/install/) installed on the system.
 `uv sync`
 
 4. Activate the project’s virtual environment:
-`source .venv/bin/activate`
 
 **Linux or macOS:**
 
