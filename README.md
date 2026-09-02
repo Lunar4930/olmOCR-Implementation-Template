@@ -94,7 +94,7 @@ Example for a single file:
 `olmocr {OUTPUT_DIRECTORY} --markdown --pdfs {INPUT_FILES}/{FILE_NAME}.{FILE_EXTENSION} --gpu-memory-utilization .85`
 
 Example for multiple files:
-`olmocr {OUTPUT_DIRECTORY} --markdown --pdfs {INPUT_FILES}/*.{FILE_EXTENSION}--gpu-memory-utilization .85 --workers 2 --pages_per_group 3`
+`olmocr {OUTPUT_DIRECTORY} --markdown --pdfs {INPUT_FILES}/*.{FILE_EXTENSION}--gpu-memory-utilization .85`
 
 ### Breakdown of the the CLI command
 
@@ -103,8 +103,6 @@ Example for multiple files:
 - `--markdown`: An instruction telling the program to save the OCR output in Markdown format.
 - `--pdfs {INPUT_FILES}/*.{FILE_EXTENSION}`: The location of your source files. The `*` is a wildcard that tells the program to get every file with the following extension (such as PDF, JPEG, etc.) in that folder.
 - `--gpu-memory-utilization .85`: A limit that tells the program it can use up to 85% of your graphics card's memory, leaving some room for other tasks.
-- `--workers 2`: Tells the program to use 2 "workers" (simultaneous processes) at once to make the job go faster. How high you can set this will depend on the capabilities of your hardware.
-- `--pages_per_group 3`: Tells the program to process the pages in batches of 3 for better efficiency. How high you can set this will depend on the capabilities of your hardware.
 
 ### After running
 - Check the `FINAL METRICS SUMMARY` output in the terminal.
