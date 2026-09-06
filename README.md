@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="olmOCR Implementation Template Repo Banner" width="800">
+</p>
+
 # About
 
 olmOCR (https://github.com/allenai/olmocr) is a tool for turning PDFs and image-based documents into text that computers can work with. It is designed to handle difficult page layouts, handwriting, tables, equations, and other challenging document formats. This repository contains a preconfigured environment, supporting scripts, and instructions for installing and using the olmOCR. Please follow the instructions in this README file to get started.
