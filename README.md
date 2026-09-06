@@ -4,7 +4,7 @@
 
 # About
 
-olmOCR (https://github.com/allenai/olmocr) is a tool for turning PDFs and image-based documents into text that computers can work with. It is designed to handle difficult page layouts, handwriting, tables, equations, and other challenging document formats. This repository contains a preconfigured environment, supporting scripts, and instructions for installing and using the olmOCR. Please follow the instructions in this README file to get started.
+[olmOCR](https://github.com/allenai/olmocr) is a tool for turning PDFs and image-based documents into text that computers can read and manipulate. It is designed to handle difficult page layouts, handwriting, tables, equations, and other challenging document formats. This repository contains a preconfigured environment, supporting scripts, and instructions for installing and using the olmOCR. Please follow the instructions in this README file to get started.
 
 >Note: This setup was built and tested on Linux. Instructions for other operating systems are provided on a best-effort basis and may require adjustments. Contributions that improve cross-platform compatibility are welcome.
 
@@ -31,7 +31,7 @@ Arch Linux:
 
 **macOS**
 
-First, install Homebrew (https://brew.sh/) if it is not already installed. 
+First, install [Homebrew](https://brew.sh/) if it is not already installed. 
 
 Then run:
 `brew install tesseract`
@@ -51,10 +51,10 @@ If installation was successful, the command will display the installed Tesseract
 
 ### UV
 
-You must have UV (https://docs.astral.sh/uv/getting-started/installation/) installed on the system.
+You must have [uv](https://docs.astral.sh/uv/getting-started/installation/) installed on the system.
 
 ### Git
-You must have Git (https://git-scm.com/install/) installed on the system.
+You must have [Git](https://git-scm.com/install/) installed on the system.
 
 # Installation
 
